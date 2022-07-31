@@ -217,8 +217,6 @@ class CommandConvert extends Command
             }
         }
 
-        var_dump($options);
-
         // check for multi-threading option
         if ($multithreading)
             $options .= ' -mt';
